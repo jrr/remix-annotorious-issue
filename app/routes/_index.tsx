@@ -1,13 +1,5 @@
 import { Annotorious, ImageAnnotator } from "@annotorious/react";
-import type { MetaFunction } from "@remix-run/node";
 import "@annotorious/react/annotorious-react.css";
-
-export const meta: MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
-};
 
 export default function Index() {
   return (
